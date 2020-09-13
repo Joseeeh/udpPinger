@@ -1,6 +1,6 @@
 # UDP-Server
 
-I dag skal vi lave en UDP-server, der også skal bruges til jeres første aflevering i DIS. Bare rolig, hvis I ikke formår at lave den, er der en solution-branch hvori løsningen kan findes. Da i nu har lidt erfaring med at lave servere fra tcpEcho, er der lidt mere overladt til jer og I får dermed ikke noget kode fra start.
+I dag skal vi lave en UDP-server, der også skal bruges til jeres første aflevering i DIS. Bare rolig, hvis I ikke formår at lave den, vil jer lægge en færdig server op i slutningen af time. 
 
 ### Step 1
 For at lave en UDP-server, skal I ikke længere bruge 'net', men i stedet importerer pakken "dgram" og gemme den i en variabel. Dokumentation kan findes her: https://nodejs.org/api/dgram.html
