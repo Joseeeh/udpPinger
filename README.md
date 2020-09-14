@@ -2,7 +2,7 @@
 I dag skal vi lave en UDP-server, der også skal bruges til jeres første aflevering i DIS. Bare rolig, hvis I ikke formår at lave den, vil jer lægge en færdig server op i slutningen af timen. 
 
 ### Step 1
-For at lave en UDP-server, skal I ikke længere bruge 'net', men i stedet importerer pakken "dgram" og gemme den i en variabel. Dokumentation kan findes her: https://nodejs.org/api/dgram.html
+For at lave en UDP-server, skal I ikke længere bruge 'net', men i stedet importerer pakken "dgram" og gemme den i en variabel. Dokumentation kan findes her: https://nodejs.org/api/dgram.html. Det vigtige at lægge mærke til er Event: 'listening', Event: 'message', socket.adress() og socket.send().
 
 ### Step 2
 Lav en variabel i kalder 'server' og lav en UDP-socket ved at skrive *Variabel navn fra step 1*.createSocket("udp4").
